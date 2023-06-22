@@ -17,8 +17,9 @@ To install and run the iLearn System, follow these steps:
 
 1. Download the repository as a ZIP file.
 2. Extract the file.
-3. open the system using C++ compiler, we recommend using visual studio.
+3. open the folder csit314 using a C++ compiler, we recommend using visual studio.
+4. run the main "csit314.cpp".
 
 ## Usage
 
-Create an account: login as an administrator with ID "0" and password "0" or use one of the predefined accounts in the system, there are a total of 13 low-privilege accounts in the system, and the password for all low-privilege accounts is "123456" and the ID is from 1 to 13. example ID ="1" and password = "123456".
+login as an administrator with ID "0" and password "0" or use one of the predefined accounts in the system, there are a total of 13 low-privilege accounts in the system, and the password for all low-privilege accounts is "123456" and the ID is from 1 to 13. example ID ="1" and password = "123456".
