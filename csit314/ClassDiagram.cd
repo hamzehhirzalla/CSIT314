@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="admin">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="user" ManuallyRouted="true">
+      <Path>
+        <Point X="4.75" Y="5.517" />
+        <Point X="4.75" Y="6.346" />
+        <Point X="1.25" Y="6.346" />
+        <Point X="1.25" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgQAAAEAAAAgAAAQAAAAAgAAAEAAAAAAAAQAgAAAAA=</HashCode>
+      <FileName>admin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="database">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAEAQAAAAAAAAAIAAAAAAkAAAAAAAAAAAACAAI=</HashCode>
+      <FileName>database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="exam">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAABAAAAAAAAAgAoAAIAAAAAAAAAAIABAQAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="grade">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAEBAIAAAAAAACAQAAAIQAAAAAAIAA=</HashCode>
+      <FileName>grade.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="parent">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAABAAAAAAAgAAQAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>parent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="student">
+    <Position X="6" Y="7" Width="1.5" />
+    <InheritanceLine Type="user" ManuallyRouted="true">
+      <Path>
+        <Point X="4.75" Y="5.517" />
+        <Point X="4.75" Y="6.351" />
+        <Point X="6.667" Y="6.351" />
+        <Point X="6.667" Y="6.875" />
+        <Point X="6.75" Y="6.875" />
+        <Point X="6.75" Y="7" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAQAIAAAAMAAAAAAAAgAAyAAAAAAACACAAEAAAA=</HashCode>
+      <FileName>student.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="subject">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAACAIAAEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>subject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teacher">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAEAAQAAAAAAAgAAQAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>teacher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="user">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAABAAywAAAIABigAAAUQAAAAAAEAgAAEwA=</HashCode>
+      <FileName>user.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

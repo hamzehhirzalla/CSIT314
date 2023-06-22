@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\c++\csit314\</FILEPATH>
+      <FILENAME>user.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'rename'.</DESCRIPTION>
+    <FUNCTION>user::deleteMessage</FUNCTION>
+    <DECORATED>?deleteMessage@user@@QEAAXH@Z</DECORATED>
+    <FUNCLINE>66</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\c++\csit314\</FILEPATH>
+      <FILENAME>user.cpp</FILENAME>
+      <LINE>200</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>user::readMessages</FUNCTION>
+    <DECORATED>?readMessages@user@@QEAAXXZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

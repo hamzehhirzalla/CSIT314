@@ -1,0 +1,4 @@
+﻿  parent.cpp
+D:\c++\csit314\teacher.h(5,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\c++\csit314\database.h(6,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  csit314.vcxproj -> D:\c++\csit314\x64\Debug\csit314.exe

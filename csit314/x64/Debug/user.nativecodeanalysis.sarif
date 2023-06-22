@@ -1,0 +1,165 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'rename'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/c++/csit314/user.cpp"
+                },
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 7,
+                  "endLine": 88,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "user::deleteMessage",
+                  "decoratedName": "?deleteMessage@user@@QEAAXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/c++/csit314/user.cpp"
+                },
+                "region": {
+                  "startLine": 200,
+                  "startColumn": 28,
+                  "endLine": 200,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "user::readMessages",
+                  "decoratedName": "?readMessages@user@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32532.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/c++/csit314/user.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "625ca4da0d26412eccd596c8592a81b76e3647178bac98bfdec14140e773ec33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/csit314/user.h"
+          },
+          "hashes": {
+            "sha-256": "6f334e39850196c7042715f15a938ded1b082d533cd8fdd70bfa1ec55a9ecca6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/csit314/database.h"
+          },
+          "hashes": {
+            "sha-256": "7f13f0d6e15aec21489787334b4dea751715f52de94094613ddeada687cda8fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/csit314/student.h"
+          },
+          "hashes": {
+            "sha-256": "3bdd27d01ea2d717d8c091315343345865330dc2b5979d498ebc79a7e66e9a4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/csit314/subject.h"
+          },
+          "hashes": {
+            "sha-256": "deeeef7685bc4b22ba389cc9a8cafa69c768dff73955d41904291fcb494971ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/csit314/exam.h"
+          },
+          "hashes": {
+            "sha-256": "873781fce707fcf731065daa99309c76d75df7b4e6b20e26881273fc959607a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/csit314/grade.h"
+          },
+          "hashes": {
+            "sha-256": "6d435762ea54f43ca79c96679eedfcb3a31181765bd47181ea55c7aff6a7e654"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/csit314/teacher.h"
+          },
+          "hashes": {
+            "sha-256": "cfb6a8d50e27431fadf29e742dc0c2d53e4c6142d96310745eab03aedb12c23a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/csit314/parent.h"
+          },
+          "hashes": {
+            "sha-256": "a5c5a2097b27cbd14cd19b8cf34078705a60e144253504ae71af849629436fd3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++/csit314/admin.h"
+          },
+          "hashes": {
+            "sha-256": "55674ef4adac3752d59a6f194829eb3dab689aae73199858cfc1fc017fbc4cf6"
+          }
+        }
+      ]
+    }
+  ]
+}
